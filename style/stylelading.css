@@ -1,0 +1,86 @@
+body {
+	margin: 0;
+	padding: 0;
+	font-family: Arial, sans-serif;
+	font-size: 16px;
+	line-height: 1.5;
+	background-color: #cfe2f3; 
+}
+
+
+header {
+	background-color: #333;
+	color: #fff;
+	padding: 20px;
+}
+
+header h1 {
+	margin: 0;
+}
+
+
+section {
+	margin: 50px 0;
+}
+
+section h2 {
+	margin: 0 0 20px;
+}
+
+
+form {
+	display: flex;
+	flex-direction: column;
+	max-width: 400px;
+	margin: 0 auto;
+}
+
+form label {
+	margin-bottom: 10px;
+}
+
+form input[type="text"],
+form input[type="email"] {
+	padding: 10px;
+	border-radius: 5px;
+	border: none;
+	margin-bottom: 20px;
+	background-color: #fff; 
+	
+}
+
+form input[type="submit"] {
+	background-color: #333;
+	color: #fff;
+	padding: 10px;
+	border-radius: 5px;
+	border: none;
+	cursor: pointer;
+}
+
+
+footer {
+	background-color: #333;
+	color: #fff;
+	padding: 23px;
+	text-align: center;
+}
+
+
+.center{
+    text-align: center;
+    font-size: 48px;
+}
+.cabecalho_menu{
+    display: flex;
+    gap: 80px;
+   }
+   .cabecalho__menu__link {
+    font-family:
+   'Montserrat',sans-serif;
+    font-weight: 600;
+    font-size: 24px;
+    color: #ffffff;
+    text-decoration: none;
+   }
+   
